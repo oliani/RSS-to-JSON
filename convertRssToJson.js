@@ -26,7 +26,7 @@ async function fetchAndParseRSS() {
         description: descriptionText,
         link: link,
         pub_date: pub_date,
-        img_url: img_url
+        img_url: img_url + "?not-from-cache-please"
       });
     });
 
